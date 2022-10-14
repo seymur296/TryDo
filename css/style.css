@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.backGround {
+    background-image: url(https://trydo.rainbowit.net/assets/images/bg/paralax/bg-image-3-overlay.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto; 
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+
+#header .logoBox {
+    width: 20%;
+  
+}
+
+#header .logoBox img {
+    width: 100%;
+}
+
+
+#header .textHeader { 
+    width: 55%;
+    
+}
+
+
+#header .textHeader ul li {
+    list-style: none;
+    padding: 13px;
+    margin-left: 15px;
+    text-align: end;
+    justify-content: flex-end;
+}
+
+#header .textHeader ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#header .textHeader ul li button {
+    padding: 6px;
+    border-radius: 6px;
+    border: 2px solid ghostwhite;
+    background-color: transparent;
+}
+
+
+#header .textHeader ul li button:hover {
+    background-color: rgba(255, 0, 0, 0.747);
+    cursor: pointer;
+}
+
+
+#header .textHeader ul li a {
+    font-size: 16px;
+}
+
+/* HEAD END */
+
+.creative {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 575px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+.creative h1 {
+    font-size: 95px;
+    color: #F3123B;
+}
+
+.creative h1 span {
+    color: #F00D53;
+}
+
+.creative p {
+    margin: 20px 0;
+    color: rgb(218, 218, 219);
+    font-size: 28px;
+}
+
+.creative button {
+    margin-top: 20px;
+    padding: 15px 35px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid rgb(218, 218, 218);
+    transition: 0.1s ease-in;
+}
+
+.creative button a {
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.creative button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.747);
+    transform: scale(0.95);
+}
+/* CREATIVE END */
+
+
+.business {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 105vh;
+}
+
+.business .boxes {
+    margin: auto;
+    width: 80%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.business .boxes .box {
+    width: 31%;
+    height: 325px;
+    background-color: rgba(231, 229, 229, 0.356);
+    border-radius: 10px;
+    margin-bottom: 35px;
+    padding: 60px 37px;
+    transition: 0.1s ease-in;
+}
+
+
+.business .boxes .box i {
+    font-size: 40px;
+    color: rgba(231, 37, 37, 0.904);
+    margin-bottom: 20px;
+}
+
+.business .boxes .box h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.business .boxes .box p {
+    font-size: 17px;
+
+}
+
+
+.business .boxes .box:hover {
+    background-color:rgba(255, 1, 1, 0.753);
+    transform: scale(0.95);
+    color: white; 
+}
+
+/* BUSINESS END  */
+
+
+.portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 105vh;
+    background-color: rgba(231, 229, 229, 0.356);;
+}
+
+.portfolio .portfolio-h1 {
+    width: 40%;
+    height: 200px;
+    padding: 50px 0;
+    padding-left: 120px;
+}
+
+.portfolio .portfolio-h1 h1 {
+    font-size: 45px;
+}
+
+.portfolio .portfolio-h1 p {
+    padding-top: 15px;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+}
+
+
+
+
+
+.portfolio .image {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio .image .face {
+    width: 31%;
+    height: 500px;
+    background-color: white;
+    border-radius: 7px;
+    padding:300px 30px 0 30px;
+}
+
+
+.portfolio .image .face h1 {
+    font-size: 14px;
+}
+
+.portfolio .image .face p {
+    font-size: 28px;
+    padding: 15px 0;
+}
+
+.portfolio .image .face button {
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.portfolio .image .face button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.face{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s ease-in;
+    color: white;
+}
+
+.face-bg-img-1 {
+   background-image: url(https://trydo.rainbowit.net/assets/images/portfolio/portfolio-1.jpg);
+}
+
+.face-bg-img-2 {
+   background-image: url(https://trydo.rainbowit.net/assets/images/portfolio/portfolio-2.jpg);
+}
+.face-bg-img-3 {
+   background-image: url(https://trydo.rainbowit.net/assets/images/portfolio/portfolio-3.jpg);
+}
+
+.face:hover{
+    transform: scale(1.1);
+}
+
+/* PORTFOLIO END */
+
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+     height: 500px;
+     width: 100%;
+
+     
+ }
+
+
+ .facts {
+     width: 25%;
+     text-align: center;
+     margin: 10rem auto 0;
+    
+ }
+
+ .facts h1 {
+     font-size: 35px;
+ }
+
+main .number {
+    width: 80%;
+    margin-top: 50px;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main .number .box1 {
+    width: 28%;
+    height: 30px;
+}
+
+
+ main .number .box1 h1{
+     font-size: 5rem;
+     color: #F9004D;
+ }
+
+ main .number .box1 p {
+     font-size: 19px;
+     margin-top: 10px;
+     color: grey;
+ }
+
+ /* MAIN END */
+
+ section {
+     font-family: Arial, Helvetica, sans-serif;
+     width: 100%;
+ }
+
+ section .big {
+     width: 80%;
+     height: 600px;
+     margin: auto ;
+     padding-top: 80px;
+
+}
+
+section .big .sections h1 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+section .big .aklima {
+    width: 35%;
+    margin: 70px auto;
+}
+
+section .big .aklima p {
+    color: grey;
+    font-size: 17px;
+}
+
+
+section .big .photos1  {
+max-width: 480px;
+margin:auto;
+height: 81px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+section .big .photos1 .pht {
+    width: 72px;
+    background-color: rgb(168, 102, 102);
+    height: 72px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 9px;
+    transition: 0.1s ease-in;
+}
+
+section .big .photos1 .pht img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pht:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.copy {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoejkmzyHcN4VmssORqOq_3-ccrpjAvf5i-g&usqp=CAU);
+}
